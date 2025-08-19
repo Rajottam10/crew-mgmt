@@ -30,7 +30,12 @@
               }
             ],
             "styles": [
+              "node-modules/bootstrap/dist/js/bootstrap.min.css",
+              "node-modules/bootstrap-icons/font/bootstrap-icons.scss",
               "src/styles.scss"
+            ],
+            "scripts": [
+              "node-modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -94,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "db8aaee7-b01e-45ac-af8d-5344c0290dea"
   }
 }
