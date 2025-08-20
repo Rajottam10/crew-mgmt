@@ -1,1 +1,7 @@
 <p>crew works!</p>
+
+<!-- <app-flights [message]="messageForComponent"></app-flights>
+<app-flights [message]="userToken"></app-flights>  -->
+<app-flights (messageEvent)="receivingMessage($event)"></app-flights>
+
+<p> {{receivedMessage}}</p>

@@ -30,12 +30,12 @@
               }
             ],
             "styles": [
-              "node-modules/bootstrap/dist/js/bootstrap.min.css",
-              "node-modules/bootstrap-icons/font/bootstrap-icons.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.scss",
               "src/styles.scss"
             ],
             "scripts": [
-              "node-modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {

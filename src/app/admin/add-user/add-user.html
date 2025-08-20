@@ -1,0 +1,19 @@
+<p>add-user works!</p>
+
+<p>{{ userName + userId}}</p>
+<p>{{userName? "default username" : "Hello world"}}</p>
+<a href="anchorUrl">click here</a>
+
+<div [class]="className">this is div</div>
+
+
+
+<button (click)="buttonClicked()">click the button</button>
+
+<input type="text" (keyup)= "capturedValue($event)"/>
+
+<div (mouseover)="onMouseover($event)" (mouseout)="onMouseout($event)">
+    This is multiple events binded
+</div>
+
+<div></div>
