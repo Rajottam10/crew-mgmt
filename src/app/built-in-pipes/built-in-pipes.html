@@ -1,0 +1,26 @@
+<p>built-in-pipes works!</p>
+
+<h2>Date pipe example</h2>
+<p>{{today | date}}</p>
+<p>{{today| date: 'shortDate' }}</p>
+
+<h2>Uppercase pipe example</h2>
+<p>{{text | uppercase}}</p>
+<p>{{text | lowercase}}</p>
+
+<h2>Currency pipe</h2>
+<p>{{amount | currency: 'EUR'}}</p>
+
+<h2>decimal pipe</h2>
+<p>{{amount | number : '1.1-2'}}</p>
+
+<h2>json pipe</h2>
+<p>{{jsonVal | json}}</p>
+
+<h2>KeyValue pipe</h2>
+<ul>
+    <li *ngFor="let item of myObject | keyvalue">
+        {{item.key}}: {{item.value}}
+    </li>
+</ul>
+

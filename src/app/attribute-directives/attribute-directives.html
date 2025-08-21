@@ -1,0 +1,14 @@
+<p>attribute-directives works!</p>
+
+<div [ngClass]="{'active':isActive, 'inactive':!isActive}"> 
+    This is to toggle the toggleActive {{status}} 
+</div>
+<button (click)="toggleActive()">Toggle Active</button>
+
+<div [ngStyle]="{'background-color':backgroundColor, 'font-size.px':fontsize}">
+    Update a style property using an attribute directive
+</div>
+<button (click)="styleUpdate()">Style update</button>
+
+<input [(ngModel)]="name"/>
+<p>the name is: {{name}}</p>

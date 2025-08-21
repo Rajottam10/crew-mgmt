@@ -1,0 +1,23 @@
+<p>structural works!</p>
+
+@if(a>b){
+    {{a}} is greater than {{b}};
+    <h3>for loop</h3>
+@for(item of items; track items){
+    <div>{{items}}</div>
+}
+} @else{
+    {{b}} is greater than {{a}};
+}
+
+@switch(userRole){
+    @case("admin"){
+        <p>user is admin</p>
+    }
+    @case("manager"){
+        <p>user is manager</p>
+    }
+    @default{
+        <p>user is default</p>
+    }
+}

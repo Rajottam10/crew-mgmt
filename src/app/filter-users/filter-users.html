@@ -1,0 +1,14 @@
+<p>filter-users works!</p>
+
+<div>
+    <label>
+        Enter Username
+    </label>
+    <input type="text" id="search" [(ngModel)]="searchTerm"/>
+</div>
+
+<ul>
+    <li *ngFor="let user of users | impureExample: searchTerm">
+        {{user}}
+    </li>
+</ul>
